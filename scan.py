@@ -4,7 +4,7 @@ import sys
 from urllib.parse import urljoin
 
 s = requests.Session()
-s.headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+s.headers["User-Agent"] = "Mozilla/........"
 
 #Tüm formları çağırmak içim fonksion
 def get_forms(url):
